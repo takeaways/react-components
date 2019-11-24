@@ -23,10 +23,15 @@ const BotHeader = () => {
         <span>검색</span>
       </Styles.BotSearchLabelDiv>
       <Styles.BotSearchInputDiv>
+        <Styles.BotSearchSelect>
+          <Styles.BotSearchSelectOption>ㄴㅇㅁ</Styles.BotSearchSelectOption>
+          <Styles.BotSearchSelectOption>안녀녕</Styles.BotSearchSelectOption>
+          <Styles.BotSearchSelectOption>
+            안녀녕ㄴㅇㅁ
+          </Styles.BotSearchSelectOption>
+        </Styles.BotSearchSelect>
         <Styles.BotSearchInput />
-        <Styles.BotSearchButton onClick={onClick}>
-          검색어
-        </Styles.BotSearchButton>
+        <Styles.BotSearchButton onClick={onClick}>검색</Styles.BotSearchButton>
       </Styles.BotSearchInputDiv>
     </Styles.BotSeachBlock>
   );
